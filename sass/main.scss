@@ -1,0 +1,29 @@
+@import "./utils/variables";
+@import "./utils/is-hidden";
+
+@import "./base/common";
+@import "./base/conatainer";
+
+@import "./components/navigation";
+@import "./components/logo";
+@import "./components/contact";
+@import "./components/adress";
+@import "./components/sm-icons";
+@import "./components/newsletter";
+@import "./components/overlay";
+@import "./components/portfolio-down-section";
+@import "./components/modal";
+@import "./components/backdrop";
+@import "./components/close-btn";
+
+
+@import "./layout/main-first-section";
+@import "./layout/description-list";
+@import "./layout/what-we-do";
+@import "./layout/our-team";
+@import "./layout/our-customers";
+@import "./layout/follow-us";
+@import "./layout/choosing-list";
+@import "./layout/choosing-images-list";
+@import "./layout/footer";
+

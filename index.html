@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -25,7 +25,7 @@
         </a>
 
         <nav>
-          <ul class="navigation list">
+          <ul class="navigation">
             <li class="navigation__item">
               <a class="navigation__links navigation__links--active" href="./index.html"
                 >Agencja</a
@@ -34,7 +34,7 @@
             <li class="navigation__item">
               <a class="navigation__links" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="navigation__item">
+            <li class="navigation__item navigation__item--last">
               <a class="navigation__links" href="#">Kontakt</a>
             </li>
           </ul>
@@ -183,7 +183,7 @@
           <ul class="our-team-list">
             <li class="our-team-list__box">
               <img
-                class="team-img"
+                class="our-team__img"
                 src="./images/our_team/card_1.jpg"
                 alt="John Doe"
                 width="270"
@@ -225,7 +225,7 @@
 
             <li class="our-team-list__box">
               <img
-                class="team-img"
+                class="our-team__img"
                 src="./images/our_team/card_2.jpg"
                 alt="John Doe"
                 width="270"
@@ -266,7 +266,7 @@
             </li>
             <li class="our-team-list__box">
               <img
-                class="team-img"
+                class="our-team__img"
                 src="./images/our_team/card_3.jpg"
                 alt="John Doe"
                 width="270"
@@ -307,7 +307,7 @@
             </li>
             <li class="our-team-list__box">
               <img
-                class="team-img"
+                class="our-team__img"
                 src="./images/our_team/card_4.jpg"
                 alt="John Doe"
                 width="270"
@@ -435,41 +435,39 @@
             </address>
           </div>
 
-          <div class="right-side">
             <div class="follow-us">
               <p class="follow-us__title">DOŁĄCZ DO NAS</p>
               <ul class="follow-us__items">
                 <li class="follow-us__icon">
                   <a class="follow-us__link" href="#">
-                    <svg class="sm-icon-picture sm-icon-picture--dark-bg">
+                    <svg class="sm-icons__img sm-icons__img--dark-bg">
                       <use href="./images/svg/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="follow-us__icon">
                   <a class="follow-us__link" href="#">
-                    <svg class="sm-icon-picture sm-icon-picture--dark-bg">
+                    <svg class="sm-icons__img sm-icons__img--dark-bg">
                       <use href="./images/svg/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="follow-us__icon">
                   <a class="follow-us__link" href="#">
-                    <svg class="sm-icon-picture sm-icon-picture--dark-bg">
+                    <svg class="sm-icons__img sm-icons__img--dark-bg">
                       <use href="./images/svg/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="follow-us__icon">
                   <a class="follow-us__link" href="#">
-                    <svg class="sm-icon-picture sm-icon-picture--dark-bg">
+                    <svg class="sm-icons__img sm-icons__img--dark-bg">
                       <use href="./images/svg/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </div>
-          </div>
 
           <div class="newsletter">
             <p class="newsletter__title">Zapisz się do newslettera</p>
@@ -477,7 +475,7 @@
               <input type="email" class="newsletter__form-input" placeholder="E-mail">
               <button class="newsletter__form-btn" type="submit">
                 Zapisz się
-                 <svg class="icon-send">
+                 <svg class="newsletter__icon-send">
                   <use href="./images/svg/icons.svg#icon-icon-send"></use>
                  </svg>
               </button>
