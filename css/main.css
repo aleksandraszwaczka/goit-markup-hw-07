@@ -48,6 +48,11 @@ header {
 }
 
 .secondary-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
 
@@ -658,14 +663,6 @@ header {
 
 .our-team {
   background-color: #f5f4fa;
-}
-
-.our-team__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.166;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .our-team__list {
