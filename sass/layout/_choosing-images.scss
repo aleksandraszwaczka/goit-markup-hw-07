@@ -1,12 +1,14 @@
-.choosing-images-list {
+.choosing-images {
+
+&__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     padding-bottom: 64px;
     row-gap: 30px;
     column-gap: 30px;
-    list-style: none;
-    
+}
+
     &__item {
       width: 370px;
       border: 1px solid #EEEEEE;

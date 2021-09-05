@@ -4,11 +4,11 @@
 @import "./base/common";
 @import "./base/conatainer";
 
-@import "./components/navigation";
+@import "./components/header-navigation";
 @import "./components/logo";
 @import "./components/contact";
 @import "./components/adress";
-@import "./components/sm-icons";
+@import "./components/our-team-icons";
 @import "./components/newsletter";
 @import "./components/overlay";
 @import "./components/portfolio-down-section";
@@ -17,13 +17,13 @@
 @import "./components/close-btn";
 
 
-@import "./layout/main-first-section";
-@import "./layout/description-list";
+@import "./layout/hero";
+@import "./layout/description";
 @import "./layout/what-we-do";
 @import "./layout/our-team";
 @import "./layout/our-customers";
 @import "./layout/follow-us";
-@import "./layout/choosing-list";
-@import "./layout/choosing-images-list";
+@import "./layout/choosing-menu";
+@import "./layout/choosing-images";
 @import "./layout/footer";
 

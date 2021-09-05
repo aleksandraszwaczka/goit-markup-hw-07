@@ -1,8 +1,7 @@
-.navigation {
+.header-navigation {
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
-    list-style: none;
 
     &__links {
       text-transform: capitalize;
@@ -32,7 +31,7 @@
       margin-right: 46px;
     }
 
-    &__item--last {
+    &__item:last-child {
       margin-right: 0px;
     }
 

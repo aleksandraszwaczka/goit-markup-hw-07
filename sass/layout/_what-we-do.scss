@@ -7,19 +7,18 @@
     letter-spacing: 0.03em;
     margin-bottom: 50px;
   }
-}
 
-.what-we-do-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   &__item {
     position: relative;
   }
 
-  &__title {
+  &__name {
     position: absolute;
     bottom: 0;
     background-color: rgba(47, 48, 58, 0.8);
