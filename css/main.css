@@ -204,29 +204,6 @@ header {
   margin-right: 10px;
 }
 
-.adress-list {
-  margin-top: 20px;
-  list-style: none;
-}
-
-.adress-list__item, .adress-list__link--mail {
-  margin-bottom: 9px;
-}
-
-.adress-list__link {
-  color: var(--third-color);
-  text-decoration: none;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.adress-list__link--mail, .adress-list__link--phone {
-  color: var(--third-color);
-  opacity: 0.6;
-}
-
 .our-team-icons {
   display: flex;
   align-items: center;
@@ -528,6 +505,29 @@ header {
   position: absolute;
   top: 5px;
   right: 5px;
+}
+
+.footer-adress {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.footer-adress__item, .footer-adress__link--mail {
+  margin-bottom: 9px;
+}
+
+.footer-adress__link {
+  color: var(--third-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer-adress__link--mail, .footer-adress__link--phone {
+  color: var(--third-color);
+  opacity: 0.6;
 }
 
 .hero {
